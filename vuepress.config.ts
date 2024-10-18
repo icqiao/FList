@@ -39,5 +39,12 @@ export default defineUserConfig({
       // 如果你使用的不是 cloudflare Pages 部署需要删掉这一行，因为如果不是cloudflare Pages部署，这个代理是无法正常工作的
       downProxy: cloudflarePagesDownProxy(),
     },
+    {
+      mountPath: "/",
+      // 这里使用 fileUrlTreeAnalysis 文件放到对应的文件路径中
+      analysis: fileUrlTreeAnalysis({
+        "/外链测试/图片.jpg": "https://image.baidu.com/search/down?url=https://wx4.sinaimg.cn/large/0068IXGogy1hsccmwv0h0j33uw2kmhdu.jpg"
+      }),
+    },
   ])
 })
