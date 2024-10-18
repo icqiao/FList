@@ -43,7 +43,8 @@ export default defineUserConfig({
       mountPath: "/",
       // 这里使用 fileUrlTreeAnalysis 文件放到对应的文件路径中
       analysis: fileUrlTreeAnalysis({
-        "/外链测试/图片.jpg": "https://image.baidu.com/search/down?url=https://wx4.sinaimg.cn/large/0068IXGogy1hsccmwv0h0j33uw2kmhdu.jpg"
+        "/外链测试/图片.jpg": "https://image.baidu.com/search/down?url=https://wx4.sinaimg.cn/large/0068IXGogy1hsccmwv0h0j33uw2kmhdu.jpg",
+        "/外链测试/文件.pdf": "https://psv4.userapi.com/s/v1/d/m94Z_AsYmhMpImBmn6Uu6OTA0ydapcmNiftGYmb-0eSj7vr05oFtBh4-OEb-Gw9lYPX1faqjtMT-MraybQDKhSzZedPiPXGug_kE_PLdd-vLAqdF/V9_Noise-Shaping_and_SAR_ADCs.pdf"
       }),
     },
   ])
