@@ -43,8 +43,10 @@ export default defineUserConfig({
       mountPath: "/",
       // 这里使用 fileUrlTreeAnalysis 文件放到对应的文件路径中
       analysis: fileUrlTreeAnalysis({
-        "/外链测试/图片.jpg": "https://image.baidu.com/search/down?url=https://wx4.sinaimg.cn/large/0068IXGogy1hsccmwv0h0j33uw2kmhdu.jpg",
-        "/外链测试/文件.pdf": "https://psv4.userapi.com/s/v1/d/m94Z_AsYmhMpImBmn6Uu6OTA0ydapcmNiftGYmb-0eSj7vr05oFtBh4-OEb-Gw9lYPX1faqjtMT-MraybQDKhSzZedPiPXGug_kE_PLdd-vLAqdF/V9_Noise-Shaping_and_SAR_ADCs.pdf"
+        "/硕士上课/数学物理方法/数学物理方法.pdf": "https://psv4.userapi.com/s/v1/d/hOVPJIShgbCtScMh6KH-lZO3sSGxj2L6XYP8YZ1LblfG9ZY3jwW0FnH8Lrbfw4MfAFrMYIyejwJS4T7uYPYfFxT25sOPqmez9LmC2uKW2W_Sz_WR/12298__25968__23398__29289__29702__26041__31243__12299__26446__26126__22855.pdf",
+        "/硕士上课/数学物理方法/数学物理方程答案.pdf": "https://psv4.userapi.com/s/v1/d/bN1d0D95BBXSQxUJduaGF-jX9_cbs0pwankQPdJAOTS4oi4xDB5tQc_ZWWtNiWn6KDY9MCEYEgXN7bUTLkn5abf268AlKM2j4r9li_mNdSHnf1Cy/25968__23398__29289__29702__26041__31243__31572__26696__20840.pdf",
+        "/硕士上课/矩阵理论/矩阵理论.pdf": "https://psv4.userapi.com/s/v1/d/bCxB3ytrXOHKOu6A6nLlj0Iy25Cbb6JrClhchYoly8Te-v9DCtAjjF5xv_AynFaUo3DLN-azlmQb46VbmK8GEtowkNlil_-4GpU9I6YSsEfUoE7z/30697__38453__29702__35770___25945__26448__30005__23376__29256.pdf",
+        "/硕士上课/数学物理方法/矩阵理论学习指导.pdf": "https://psv4.userapi.com/s/v1/d/PtM1ixC0cGLWrYgCzPKDxDJpeSjEgPD51dApozb-rzzz04Ua3ibmaBC0iSAb_gs-R_77vjf0ttMilG_fOjLiV6W6EtohEtBlAf-463jPxyb2PIUj/30697__38453__29702__35770__23398__20064__25351__23548.pdf"
       }),
     },
   ])
