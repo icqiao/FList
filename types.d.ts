@@ -1,4 +1,4 @@
 declare module 'aplayer' {
     const APlayer: any;
-    export default APlayer;
+    export default APlayer; 
 }
