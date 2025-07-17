@@ -39,6 +39,16 @@ export default defineUserConfig({
       // 如果你使用的不是 cloudflare Pages 部署需要删掉这一行，因为如果不是cloudflare Pages部署，这个代理是无法正常工作的
       downProxy: cloudflarePagesDownProxy(),
     },
+   {
+      mountPath:"/",
+      analysis:giteeReleasesFilesAnalysis({
+      user:"rficer",
+      repository:"file",
+    //direction: 'asc', //排序
+    //access_token: 'xxxx', //用户token
+    //page: 0, //第几页
+    //per_page: 100 //一页显示多少个
+   },
     {
       mountPath: "/",
       // 这里使用 fileUrlTreeAnalysis 文件放到对应的文件路径中
