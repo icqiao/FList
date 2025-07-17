@@ -41,14 +41,7 @@ export default defineUserConfig({
     },
    {
       mountPath:"/",
-      analysis:giteeReleasesFilesAnalysis({
-    user:"jianjianai",
-    repository:"FList",
-    //direction: 'asc', //排序
-    //access_token: 'xxxx', //用户token
-    //page: 0, //第几页
-    //per_page: 100 //一页显示多少个
-      })
+      analysis: giteeReleasesFilesAnalysis({ user:"rficer", repository:"file" }),
    },
     {
       mountPath: "/",
